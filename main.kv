@@ -1,0 +1,23 @@
+# this .kv file is kivy language file which is the sub file of the main.py and it represent the GUI of the main.py file.
+#
+# kivy file are only for GUI purposes.
+# MainWidget is a root widget
+#
+#
+# BoxlayoutExample:
+
+MainWidget:
+
+<MainWidget>:
+    Button: # top link bar
+        text:'1'
+        pos:(0, root.height-100)
+        size:(root.width, 100)
+    Button:
+        text:'2'
+        pos:(0, 0)
+        size:(root.width-200, root.height-(100))
+    Button:
+        text:'3'
+        pos:(root.width-200, 0)
+        size:(root.width-(root.width-200), root.height-100)
