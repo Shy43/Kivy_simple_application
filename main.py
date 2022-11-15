@@ -1,5 +1,9 @@
-# only layout is here.
-
+# simple layout using kivy 
+# 
+# main.kv kivy file is use for the GUI purposes
+# 
+#
+#
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
